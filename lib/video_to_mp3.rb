@@ -1,4 +1,4 @@
-require "../errors/video_to_mp3_error"
+require "errors/video_to_mp3_error"
 
 class VideoToMp3
   
