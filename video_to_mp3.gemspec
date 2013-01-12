@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name              = "video_to_mp3"
-  s.version           = "0.0.2"
+  s.version           = "0.0.3"
   s.platform          = Gem::Platform::RUBY
   s.author            = "Naveen Agarwal"
   s.email             = ["naveenagarwal287@gmail.com"]
@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
 
   s.files = [
     "lib/video_to_mp3.rb",
-    "errors/video_to_mp3_error.rb",
+    "lib/errors/video_to_mp3_error.rb",
     "LICENSE",
     "README.md",
     "video_to_mp3.gemspec"
