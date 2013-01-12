@@ -31,6 +31,11 @@ outfile name and mp3_files directory get created if you donot provide the destin
 you can find the converted file at destination\path\outputfile_name.mp3
 
 
+Issue Report
+------------
+For any query or bug send me an email to naveenagarwal287@gmail.com
+Also let me know if any one wish to write the test suite for it.
+
 License
 -------
 
