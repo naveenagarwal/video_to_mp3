@@ -10,8 +10,6 @@ Gem::Specification.new do |s|
   s.summary           = "Converts the video files into mp3 using ffmpeg"
   s.description       = "audio/video media convertor"
 
-  s.rubyforge_project = "video_to_mp3"
-
   s.require_paths = ["lib"]
 
   if File.exists?('UPGRADING')
@@ -19,6 +17,6 @@ Gem::Specification.new do |s|
   end
 
   s.requirements << "ffmpeg"
-  s.required_ruby_version = ">= 1.8.7"
+  s.required_ruby_version = ">= 1.9.2"
 
 end
