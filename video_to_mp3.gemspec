@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name              = "video_to_mp3"
-  s.version           = "0.0.3"
+  s.version           = "0.0.4"
   s.platform          = Gem::Platform::RUBY
   s.author            = "Naveen Agarwal"
   s.email             = ["naveenagarwal287@gmail.com"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   end
 
   s.requirements << "ffmpeg"
-  s.required_ruby_version = ">= 1.9.2"
+  s.required_ruby_version = ">= 1.8.7"
 
   s.files = [
     "lib/video_to_mp3.rb",

@@ -8,7 +8,7 @@ class VideoToMp3
 
     #set the output filename sames as input filename if it is not supplied
     output_filename = input_filename.split("/")[-1] if output_filename.nil? or input_filename.empty?
-    ffmpeg = `which ffmpeg`
+    ffmpeg = `which ffmpeg`.chomp
 
     raise VideoToMp3Error, "Please install ffmpeg on your system. \n
                        Chackout the installation guide at http://ffmpeg.org/download.html
@@ -23,6 +23,10 @@ class VideoToMp3
     
     path = "#{destination_path}/#{output_filename}.mp3"
     ffmpeg_command = "#{ffmpeg} -i #{input_filename} -q 1 #{path}"
+
+    puts "*********************************"
+    puts ffmpeg_command
+    puts "*********************************"
 
     #system method runs the command and return the true or false
     command_status = system(ffmpeg_command)
