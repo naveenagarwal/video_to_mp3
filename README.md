@@ -13,7 +13,7 @@ Installation
 ------------
 
 ```ruby
-gem "video_to_mp3", "~> 0.0.1"
+gem "video_to_mp3", "~> 0.0.3"
 ```
 
 
