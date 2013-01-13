@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name              = "video_to_mp3"
-  s.version           = "0.0.4"
+  s.version           = "0.0.5"
   s.platform          = Gem::Platform::RUBY
   s.author            = "Naveen Agarwal"
   s.email             = ["naveenagarwal287@gmail.com"]
