@@ -25,8 +25,8 @@ In your code
 
 VideoToMp3.new.connvert_to_mp3("\path\to\video\file", "outputfile_name", "\destination\path")
 
-if you do not prove the output filename and destination path then inputfile name is set as 
-outfile name and mp3_files directory get created if you donot provide the destination path
+if you do not providethe output filename and destination path then inputfile name is set as 
+outputfile name and "mp3_files" directory get created if you do not provide the destination path
 
 you can find the converted file at destination\path\outputfile_name.mp3
 
