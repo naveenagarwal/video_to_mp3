@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
   s.files = [
     "lib/video_to_mp3.rb",
     "lib/errors/video_to_mp3_error.rb",
-    "LICENSE",
     "README.md",
     "video_to_mp3.gemspec"
   ]
